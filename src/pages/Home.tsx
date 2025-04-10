@@ -47,7 +47,7 @@ const Home = () => {
         title="What you wear starts with your hair"
         subtitle="Walk in for more than a cut, curl or cure. We have got you covered, head to toe."
         backgroundImage="/images/hero.jpg"
-        backgroundVideo="/public/HeroVideo.mp4"
+        backgroundVideo="/HeroVideo.mp4"
       />
 
       <section className="py-16 bg-champagne-pink/10">
