@@ -23,18 +23,18 @@ const Blog = () => {
     <div>
       <HeroSection
         title="Our Blog"
-        subtitle="Stories, tips, and insights from the world of beauty and wellness"
-        backgroundVideo='/public/HeroVideo.mp4'
-        backgroundImage='/public/images/hero-bg.jpg'
-        buttonText="WRITE A POST"
-        buttonLink="/blog/new"
+        subtitle="Discover beauty insights, trends, and stories from the Tryst family"
+        backgroundVideo='/HeroVideo.mp4'
+        backgroundImage='/images/hero-bg.jpg'
+        buttonText={undefined}
+        buttonLink={undefined}
       />
 
       <section className="py-16 bg-white md:py-24">
         <div className="container px-4 mx-auto">
           <SectionTitle
             title="Latest Posts"
-            subtitle="Read our latest articles and stay up to date with beauty trends"
+            subtitle="Explore our curated collection of beauty wisdom and salon stories"
             center
           />
 
@@ -56,13 +56,7 @@ const Blog = () => {
             </motion.div>
           ) : (
             <div className="mt-12 text-center">
-              <p className="mb-6 text-lg text-jet/70">No blog posts yet.</p>
-              <Link
-                to="/blog/new"
-                className="inline-block px-8 py-3 text-sm font-medium tracking-wider text-white uppercase transition-all duration-300 bg-salon-purple hover:bg-black"
-              >
-                Write Your First Post
-              </Link>
+              <p className="text-lg text-jet/70">No blog posts available yet.</p>
             </div>
           )}
         </div>

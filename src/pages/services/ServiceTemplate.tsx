@@ -32,7 +32,7 @@ const ServiceTemplate: React.FC<ServicePageProps> = ({
         <div className="container px-4 mx-auto">
           <SectionTitle
             title="Our Services"
-            subtitle="Choose from our range of professional services tailored to your needs"
+            subtitle="Experience excellence with our carefully curated range of premium services"
             center
           />
 
@@ -66,8 +66,8 @@ const ServiceTemplate: React.FC<ServicePageProps> = ({
       <section className="py-16 bg-almond/20">
         <div className="container px-4 mx-auto text-center">
           <SectionTitle
-            title="Ready to experience our services?"
-            subtitle="Book your appointment today and let our experts take care of you."
+            title="Ready to transform your look?"
+            subtitle="Book your appointment at Tryst Salon and let our experts create magic."
             center
           />
 

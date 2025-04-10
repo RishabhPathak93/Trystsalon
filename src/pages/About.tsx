@@ -10,7 +10,7 @@ const About = () => {
         title="Where Beauty Meets Care"
         subtitle="Step into our world — where style, sustainability, and self-love come together."
         backgroundImage="/images/hero.jpg"
-        backgroundVideo='/public/HeroVideo.mp4'
+        backgroundVideo='/HeroVideo.mp4'
         buttonText="EXPLORE OUR WORK"
         buttonLink="/work"
       />
@@ -132,7 +132,7 @@ const About = () => {
               </div>
               <h3 className="mb-2 text-xl font-lora text-salon-purple">Sustainability</h3>
               <p className="text-jet/70">
-              At our salon, sustainability isn’t just a choice it’s a commitment to both our clients, community and the environment. We thoughtfully select clean, eco-conscious products that are as gentle on you as they are respectful to the planet.              </p>
+              At our salon, sustainability isn't just a choice it's a commitment to both our clients, community and the environment. We thoughtfully select clean, eco-conscious products that are as gentle on you as they are respectful to the planet.              </p>
             </motion.div>
 
             <motion.div

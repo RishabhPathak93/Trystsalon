@@ -4,40 +4,40 @@ const HairPage = () => {
   const hairServices = [
     {
       name: "Haircut & Style",
-      description: "Professional haircut and styling tailored to your face shape and preferences",
-      price: "From $50"
+      description: "Expert haircut and styling personalized to enhance your unique features",
+      price: "₹999 onwards"
     },
     {
       name: "Hair Coloring",
-      description: "Full color, highlights, balayage, or ombre by our expert colorists",
-      price: "From $80"
+      description: "Premium hair coloring including global color, highlights, and balayage",
+      price: "₹2999 onwards"
     },
     {
       name: "Hair Treatments",
-      description: "Deep conditioning, keratin treatment, and hair spa services",
-      price: "From $45"
+      description: "Luxury hair treatments including Olaplex, keratin, and specialized hair spa",
+      price: "₹1999 onwards"
     },
     {
       name: "Blowout & Styling",
-      description: "Professional blow dry and styling for any occasion",
-      price: "From $35"
+      description: "Professional blow dry and styling for any occasion with lasting results",
+      price: "₹899 onwards"
     },
     {
       name: "Hair Extensions",
-      description: "Premium quality hair extensions application and maintenance",
-      price: "From $200"
+      description: "High-quality hair extensions for added length and volume",
+      price: "₹15000 onwards"
     },
     {
       name: "Bridal Hair",
-      description: "Special occasion and bridal hair styling services",
-      price: "From $150"
+      description: "Exquisite bridal hair styling for your special day",
+      price: "₹8000 onwards"
     }
   ];
 
   return (
     <ServiceTemplate
       title="Hair Services"
-      subtitle="Transform your look with our expert hair styling, coloring, and treatment services"
+      subtitle="Experience the art of hair transformation with our expert stylists"
       heroImage="/images/hair.jpeg"
       services={hairServices}
     />

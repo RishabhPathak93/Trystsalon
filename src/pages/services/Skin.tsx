@@ -4,40 +4,40 @@ const SkinPage = () => {
   const skinServices = [
     {
       name: "Facial Treatments",
-      description: "Customized facial treatments for all skin types",
-      price: "From $60"
+      description: "Luxurious facials customized for your skin type using premium products",
+      price: "₹2499 onwards"
     },
     {
       name: "Chemical Peels",
-      description: "Professional chemical peels for skin rejuvenation",
-      price: "From $80"
+      description: "Advanced chemical peels for skin rejuvenation and texture improvement",
+      price: "₹3999 onwards"
     },
     {
       name: "Microdermabrasion",
-      description: "Advanced exfoliation treatment for renewed skin",
-      price: "From $70"
+      description: "Diamond tip microdermabrasion for refined and renewed skin",
+      price: "₹2999 onwards"
     },
     {
       name: "Acne Treatment",
-      description: "Specialized treatments for acne-prone skin",
-      price: "From $65"
+      description: "Targeted treatments for acne using medical-grade products",
+      price: "₹2499 onwards"
     },
     {
       name: "Anti-Aging Treatment",
-      description: "Premium anti-aging treatments and procedures",
-      price: "From $90"
+      description: "Premium anti-aging treatments using advanced technology",
+      price: "₹4999 onwards"
     },
     {
       name: "Skin Consultation",
-      description: "Professional skin analysis and treatment planning",
-      price: "From $40"
+      description: "Comprehensive skin analysis with personalized treatment plan",
+      price: "₹999 onwards"
     }
   ];
 
   return (
     <ServiceTemplate
       title="Skin Care Services"
-      subtitle="Reveal your natural glow with our professional skin care treatments"
+      subtitle="Advanced skincare treatments for radiant, healthy skin"
       heroImage="/images/skin.jpeg"
       services={skinServices}
     />

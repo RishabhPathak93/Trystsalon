@@ -8,44 +8,44 @@ const Services = () => {
     {
       id: 1,
       title: 'Hair',
-      description: 'Cut. Colour. Cure. No matter the service, you will meet a new you, every time.',
-      image: '/images/salon1.jpg',
+      description: 'From classic cuts to trendy styles, our expert stylists create looks that enhance your natural beauty.',
+      image: '/images/hair-service.jpeg',
       link: '/services/hair'
     },
     {
       id: 2,
       title: 'Skin',
-      description: 'Clean-up or get an indulging facial, you deserve to be pampered. Over and over again.',
-      image: '/images/salon2.jpg',
+      description: 'Revitalize your skin with our customized facials and advanced skincare treatments.',
+      image: '/images/skin-service.jpeg',
       link: '/services/skin'
     },
     {
       id: 3,
       title: 'Grooming',
-      description: 'Become a regular. Make it a grooming ritual. Scrub, shave, trim, put on a good face and look like success. While having a good time.',
-      image: '/images/salon3.jpg',
+      description: 'Professional grooming services to keep you looking sharp and well-maintained.',
+      image: '/images/grooming-service.jpeg',
       link: '/services/grooming'
     },
     {
       id: 4,
       title: 'Spa',
-      description: 'Not for special occasions alone. Treat yourself to one, on good days, bad days, and special ones.',
-      image: '/images/salon4.jpg',
+      description: 'Indulge in relaxing spa treatments that rejuvenate your body and mind.',
+      image: '/images/spa-service.jpeg',
       link: '/services/spa'
     },
     {
       id: 5,
       title: 'Nail',
-      description: 'Mid-week breaks or me-time weekends, squeeze in a quickie cure. You know you want to.',
-      image: '/images/service1.jpg',
+      description: 'Express yourself with our creative nail art and professional manicure services.',
+      image: '/images/nail-service.jpeg',
       link: '/services/nail'
     },
     {
       id: 6,
       title: 'Semi Permanent Make Up',
-      description: 'What if you could apply permanent make up, in a way that it looks natural? And 100% safe? Introducing a revolutionary technique that lets you enhance your lips, and create fuller eyebrows and lashes.',
-      image: '/images/service2.jpg',
-      link: '/services/spmu'
+      description: 'Enhance your natural features with long-lasting semi-permanent makeup solutions.',
+      image: '/images/makeup-service.jpeg',
+      link: '/services/semi-permanent-makeup'
     }
   ];
 
@@ -54,8 +54,7 @@ const Services = () => {
       <HeroSection
         title="Updos to highlights"
         subtitle="More than a cut. More than a colour and curl. It is a lasting impression."
-        backgroundImage="/public/images/hair.jpeg"
-        
+        backgroundImage="/images/hair.jpeg"
         buttonText="BOOK NOW"
       />
 

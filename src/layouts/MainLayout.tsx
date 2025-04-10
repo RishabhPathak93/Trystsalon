@@ -107,7 +107,7 @@ const MainLayout = () => {
                     href={link.path}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative text-xs font-medium tracking-wider uppercase transition text-brown hover:text-white group"
+                    className="relative text-xs font-medium tracking-wider uppercase transition text-brown hover:text-dark-green group"
                   >
                     {link.name}
                     {link.badge && (
@@ -120,7 +120,7 @@ const MainLayout = () => {
                 ) : (
                   <Link
                     to={link.path}
-                    className="relative text-xs font-medium tracking-wider uppercase transition text-brown hover:text-white group"
+                    className="relative text-xs font-medium tracking-wider uppercase transition text-brown hover:text-dark-green group"
                   >
                     {link.name}
                     {link.badge && (
@@ -139,7 +139,7 @@ const MainLayout = () => {
                         <Link
                           key={child.name}
                           to={child.path}
-                          className="block px-4 py-2 text-xs transition-colors text-brown hover:text-white hover:bg-dark-green"
+                          className="block px-4 py-2 text-xs transition-colors text-brown hover:text-dark-green hover:bg-champagne_pink"
                         >
                           {child.name}
                         </Link>
@@ -419,6 +419,7 @@ const MainLayout = () => {
             <div className="flex flex-col items-center space-y-2 text-sm md:flex-row md:space-y-0">
               <span className="md:mr-4">Tryst © Copyright {new Date().getFullYear()}</span>
               <span className="text-beige">Designed by Tridenzic</span>
+              <Link to="/admin/login" className="ml-4 text-xs text-light-gray/50 hover:text-light-gray">Admin</Link>
             </div>
           </div>
         </div>
