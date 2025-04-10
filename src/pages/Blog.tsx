@@ -37,7 +37,7 @@ const Blog = () => {
             subtitle="Explore our curated collection of beauty wisdom and salon stories"
             center
           />
-
+manage blogs to
           {loading ? (
             <div className="flex items-center justify-center h-64">
               <div className="w-16 h-16 border-4 rounded-full border-salon-purple border-t-transparent animate-spin"></div>

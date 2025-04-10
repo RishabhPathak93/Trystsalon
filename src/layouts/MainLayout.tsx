@@ -34,6 +34,7 @@ const MainLayout = () => {
   };
 
   const navLinks: NavLink[] = [
+    {name: 'HOME',path:'/'},
     { name: 'ABOUT', path: '/about', children: [
       { name: 'Tryst', path: '/about' },
       { name: 'Locations', path: '/locations' },
