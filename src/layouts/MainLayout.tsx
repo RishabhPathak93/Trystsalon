@@ -2,6 +2,7 @@ import { Link, Outlet } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import Logo2 from '../assets/images/logo2.jpg'; // or correct path
 
 interface NavChild {
   name: string;
