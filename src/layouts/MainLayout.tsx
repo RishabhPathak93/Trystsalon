@@ -93,7 +93,7 @@ const MainLayout = () => {
         <div className="container flex items-center justify-between px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <Link to="/" className="flex items-center shrink-0 group">
             <img
-              src="/images/trystlogo.jpg"
+              src="/images/logo2.jpg"
               alt="Tryst Salon"
               className="object-contain h-10 transition-all duration-300 sm:h-12 md:h-14 group-hover:scale-105"
             />
@@ -197,7 +197,7 @@ const MainLayout = () => {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-8">
                   <img
-                    src="/public/images/trystlogo.jpg"
+                    src="/public/images/logo2.jpg"
                     alt="Tryst Salon"
                     className="h-8"
                   />
