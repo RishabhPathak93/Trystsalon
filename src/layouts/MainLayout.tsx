@@ -197,7 +197,7 @@ const MainLayout = () => {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-8">
                   <img
-                    src="/public/images/trystlogo.jpg"
+                    src="/images/trystlogo.jpg"
                     alt="Tryst Salon"
                     className="h-8"
                   />

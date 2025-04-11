@@ -81,8 +81,8 @@ const Offers = () => {
       <HeroSection
         title="Special Offers"
         subtitle="Indulge in our carefully curated packages designed for your complete wellness"
-        backgroundImage="/public/HeroImage.jpg"
-        backgroundVideo="/public/HeroVideo.mp4"
+        backgroundImage="/HeroImage.jpg"
+        backgroundVideo="/HeroVideo.mp4"
         buttonText="BOOK NOW"
         buttonLink="https://wa.me/1234567890"
       />
