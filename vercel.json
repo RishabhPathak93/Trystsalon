@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "./vercel-build.sh",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
